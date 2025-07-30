@@ -1,24 +1,32 @@
-# Relatórios SQL - Hospital do Rim
+# Relatórios de Orçamento Cirúrgico - Sistema Tasy
 
-Este repositório contém consultas SQL utilizadas para gerar relatórios de cirurgias e controle farmacêutico no sistema Tasy.
+Este repositório contém exemplos e modelos de orçamentos cirúrgicos extraídos do sistema Tasy utilizados no Hospital do Rim.
 
-## 📌 Objetivos
+## 📄 Exemplo de Relatório
 
-- Consultar KITs e OPMEs usados por paciente
-- Agrupar por médico, data, unidade e convênio
-- Exportar dados para controle no Excel
+**Paciente:** Ademar Pinto Siqueira  
+**Convênio:** Particular  
+**Procedimento:** Hidrocele unilateral – correção cirúrgica  
+**Médico responsável:** Pedro Henrique Rezende  
+**Valor Total:** R$ 1.500,00  
+**Data do orçamento:** 18/06/2025
 
-## 🛠 Tecnologias
+## 📌 Informações Incluídas
 
-- Oracle SQL
+- Descrição do procedimento e valores detalhados
+- Datas de aprovação, validade e internação
+- Itens inclusos e não inclusos no pacote
+- Avisos sobre possíveis alterações no valor
+
+## 🛠 Tecnologias e Sistemas
+
 - Sistema Tasy
-- Excel
+- Oracle SQL (caso precise extrair os dados em consulta)
 
-## 📁 Organização
+## 📌 Observações
 
-- `relatorio_opme.sql`: lista OPME por paciente
-- `relatorio_kits.sql`: traz dados de kits cirúrgicos
-- `relatorio_producao.sql`: produção médica por período
+Este relatório é apenas um modelo de uso interno para fins de documentação e controle. Não contém dados sensíveis de pacientes reais.
+
 
 ## 👩‍💻 Autor
 
